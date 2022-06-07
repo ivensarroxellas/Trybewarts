@@ -1,4 +1,4 @@
-const botaoL = document.getElementById('botaoLogin')
+const botaoL = document.getElementById('botaoLogin');
 const email = document.getElementById('email');
 const password = document.getElementById('password');
 
