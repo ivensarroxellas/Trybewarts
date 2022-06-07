@@ -44,41 +44,33 @@
               </select>
           </label>
         </section>  
-      </form>
       <hr>
       <section id="bigContainer">
         <section id="container">
-            <label id="label-family">Qual a sua família?
-                <label for="family1">
-                    <input type="radio" id="family1" name="family" value="Frontend" checked>Família Frontend
-                </label>
-                <label for="family2">
-                    <input type="radio" id="family2" name="family" value="Backend">Família Backend
-                </label>
-                <label for="family3">
-                    <input type="radio" id="family3" name="family" value="FullStack">Família FullStack
-                </label>
-            </label>
+            <label id="label-family">Qual sua família?</label>
+            <input type="radio" name="family" id="front" value="Frontend" checked>Família Frontend
+            <input type="radio" name="family" id="" value="Backend">Família Backend
+            <input type="radio" name="family" id="" value="FullStack">Família FullStack
         </section>
         <section class="input-contents">
-            <p>Qual conteúdo você está com mais vontade de aprender?</p>
+            <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>  
             <label for="contents1">HoFs</label>
-            <input type="checkbox" class="subject"  id="contents1" name="contents" value="HoFs">
+            <input type="checkbox" class="subject" id="contents1" name="contents" value="HoFs">
             <label for="contents2">Jest</label>
-            <input type="checkbox" class="subject" id="contents2" name="contents" value="Jest">
+            <input class="subject" type="checkbox" id="contents2" name="contents" value="Jest">
             <label for="contents3">Promises</label>
-            <input type="checkbox" class="subject" id="contents3" name="contents" value="Promises">
+            <input class="subject" type="checkbox" id="contents3" name="contents" value="Promises">
             <label for="contents4">React</label>
-            <input type="checkbox" class="subject" id="contents4" name="contents" value="React">
+            <input class="subject" type="checkbox" id="contents4" name="contents" value="React">
             <label for="contents5">SQL</label>
-            <input type="checkbox" class="subject" id="contents5" name="contents" value="SQL">
+            <input class="subject" type="checkbox" id="contents5" name="contents" value="SQL">
             <label for="contents6">Python</label>
-            <input type="checkbox" class="subject" id="contents6" name="contents" value="Python">
+            <input class="subject" type="checkbox" id="contents6" name="contents" value="Python">
         </section>
       </section>  
       <hr>
       <section class="input-evaluation">
-          <label id="label-rate">Como você avalia a Trybewarts
+          <label id="label-rate">Como você avalia a Trybewarts?</label>
           <label for="evaluation1">
               <input type="radio" id="evaluation1" name="rate" value="1">1
           </label>
@@ -108,12 +100,11 @@
           </label>
           <label for="evaluation10">
               <input type="radio" id="evaluation10" name="rate" value="10">10
-          </label>
-        </label>  
+          </label>  
       </section>
       <section class="input-textarea">
-          <p>Deixe seu comenterio:</p>
-          <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+          <label class="textarea">Deixe seu comentário:</label>
+          <textarea maxlength="500" name="comentario" id="comentario" cols="30" rows="10"></textarea>
       </section>
       <div class="info-accept">
           <label for="accept">você concorda com o uso das informações acima?</label>
@@ -126,10 +117,11 @@
     <button class="btn" type="submit">Enviar</button>
     </section>
     </main>
+    </form>
     <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Trybewarts colored">
     </div>
     <footer class="footer">
-      <h3>Direitos reservados á Trybewarts</h3>
+      <h3>Direitos reservados à Trybewarts©</h3>
     </footer>
     <script src="script.js"></script>
 </body>
