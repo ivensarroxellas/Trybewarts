@@ -7,3 +7,13 @@
   display: flex;
 
 }
+
+main {
+  display: flex;
+}
+
+#evaluation-fom {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
