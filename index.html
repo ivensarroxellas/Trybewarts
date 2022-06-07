@@ -16,26 +16,26 @@
             <input type="email" placeholder="Email" name="email" id="email" required>
             <label for="password"></label>
             <input type="password" autocomplete="off" placeholder="Senha" name="password" id="password" required>
-            <button id="botaoLogin" type="submit" onclick="handleSubmit()">Entrar</button>
+            <button id="botaoLogin" type="submit">Entrar</button>
         </form>
     </header>
     <main>
       <h2>Forms</h2>
       <form id="evaluation-form" action="" method="get">
-          <label for="nickname">Nome:</label>
-          <input type="text" name="nickname" id="nickname" required>
-          <label for="nickTwoname">Sobrenome:</label>
-          <input type="text" name="nickTwoname" id="nickTwoname" required>
+          <label for="nickname"></label>
+          <input type="text" placeholder="Nome" name="nickname" id="input-name" required>
+          <label for="nickTwoname"></label>
+          <input type="text" placeholder="Sobrenome" name="nickTwoname" id="input-lastname" required>
           <br>
           <br>
-          <label for="nickemail"> Email: </label>
-          <input type="email" name="email" id="nickemail" required>
+          <label for="nickemail"></label>
+          <input type="email" placeholder="Email" name="email" id="input-email" required>
           <label for="">Casa:
-              <select name="Home" id="input-home">
-                  <option value="SP">São Paulo</option>
-                  <option value="RJ">Rio de Janeiro</option>
-                  <option value="BH">Belo Horizonte</option>
-                  <option value="MG">Mina Gerais</option>
+              <select name="Home" id="house">
+                  <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+                  <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+                  <option id="corvinode-house" value="Corvinode">Corvinode</option>
+                  <option id="pytherina-house" value="Pytherina">Pytherina</option>
               </select>
           </label>
       </form>
