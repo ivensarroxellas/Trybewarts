@@ -20,14 +20,18 @@
         </form>
     </header>
     <main>
-      <h2>Forms</h2>
+    <section>
+      <h2>Formulário de Avaliação</h2>
       <form id="evaluation-form" action="" method="get">
+        <section class="inputs">
           <label for="nickname"></label>
           <input type="text" placeholder="Nome" name="nickname" id="input-name" required>
           <label for="nickTwoname"></label>
           <input type="text" placeholder="Sobrenome" name="nickTwoname" id="input-lastname" required>
+        </section>
           <br>
           <br>
+          <section class="inputss">
           <label for="nickemail"></label>
           <input type="email" placeholder="Email" name="email" id="input-email" required>
           <label for="">Casa:
@@ -38,38 +42,38 @@
                   <option id="pytherina-house" value="Pytherina">Pytherina</option>
               </select>
           </label>
+        </section>  
       </form>
       <hr>
-      <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Trybewarts colored">
-      <section class="input-family">
-          <p>Qual a sua família?</p>
-          <label for="family1">
-              <input type="radio" id="family1" name="Qual-family" value="frontend" checked>Família Frontend
-          </label>
-          <br>
-          <label for="family2">
-              <input type="radio" id="family2" name="Qual-family" value="backend">Família Backend
-          </label>
-          <br>
-          <label for="family3">
-              <input type="radio" id="family3" name="Qual-family" value="fullstack">Família FullStack
-          </label>
-      </section>
-      <section class="input-contents">
-          <p>Qual conteúdo você está com mais vontade de aprender?</p>
-          <input type="checkbox" id="contents1" name="contents">
-          <label for="contents1">HoFs</label>
-          <input type="checkbox" id="contents2" name="contents">
-          <label for="contents2">Jest</label>
-          <input type="checkbox" id="contents3" name="contents">
-          <label for="contents3">Promises</label>
-          <input type="checkbox" id="contents4" name="contents">
-          <label for="contents4">React</label>
-          <input type="checkbox" id="contents5" name="contents">
-          <label for="contents5">SQL</label>
-          <input type="checkbox" id="contents6" name="contents">
-          <label for="contents6">Python</label>
-      </section>
+      <section>
+        <section id="container">
+            <label id="label-family">Qual a sua família?</label>
+                <label for="family1">
+                    <input type="radio" id="family1" name="family" value="Frontend" checked>Família Frontend
+                </label>
+                <label for="family2">
+                    <input type="radio" id="family2" name="family" value="Backend">Família Backend
+                </label>
+                <label for="family3">
+                    <input type="radio" id="family3" name="family" value="FullStack">Família FullStack
+                </label>
+        </section>
+        <section class="input-contents">
+            <p>Qual conteúdo você está com mais vontade de aprender?</p>
+            <input type="checkbox" id="contents1" name="contents">
+            <label for="contents1">HoFs</label>
+            <input type="checkbox" id="contents2" name="contents">
+            <label for="contents2">Jest</label>
+            <input type="checkbox" id="contents3" name="contents">
+            <label for="contents3">Promises</label>
+            <input type="checkbox" id="contents4" name="contents">
+            <label for="contents4">React</label>
+            <input type="checkbox" id="contents5" name="contents">
+            <label for="contents5">SQL</label>
+            <input type="checkbox" id="contents6" name="contents">
+            <label for="contents6">Python</label>
+        </section>
+      </section>  
       <hr>
       <section class="input-evaluation">
           <label for="evaluation1">Como você avalia a Trybewarts
@@ -114,8 +118,11 @@
       <div class="slogan">
           <img src="" alt="">
       </div>
-    </main>
+    
     <button class="btn" type="submit">Enviar</button>
+    </section>
+    </main>
+    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Trybewarts colored">
     <footer class="footer">
       <h3>Direitos reservados á Trybewarts</h3>
     </footer>
