@@ -50,7 +50,6 @@ main {
   height: auto;
   justify-content: flex-start;
   align-self: flex-start;
-  height: 150px;
 }
 
 #trybewarts-forms-logo {
@@ -61,13 +60,11 @@ main {
 .input-contents {
   display: flex;
   justify-self: flex-start;
-  flex-direction: row;
   height: auto;
   justify-content: flex-start;
   align-self: flex-start;
-  height: 200px;
   width: 200px;
-  flex-wrap: wrap;
   margin-left: 20px;
   margin-top: 0;
+  flex-wrap: wrap;
 }
