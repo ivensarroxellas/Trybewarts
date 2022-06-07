@@ -11,11 +11,13 @@
     <header class="header">
         <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Trybewarts">
         <h1>Trybewarts</h1>
-        <nav id="navigation">
-            <a href=""><h3>login</h3></a>
-            <a href=""><h3>senha</h3></a>
-            <a href=""><h3>logar</h3></a>
-        </nav>
+        <form class="trybewarts-login" action="" method="get">
+            <label for="email"></label>
+            <input type="email" placeholder="Email" name="email" id="email" required>
+            <label for="password"></label>
+            <input type="password" autocomplete="off" placeholder="Senha" name="password" id="password" required>
+            <button id="botaoLogin" type="submit" onclick="handleSubmit()">Entrar</button>
+        </form>
     </header>
     <main class="container">
       <h2>Forms</h2>
@@ -23,7 +25,7 @@
           <label for="nickname">Nome:</label>
           <input type="text" name="nickname" id="nickname" required>
           <label for="nickTwoname">Sobrenome:</label>
-          <input type="text" name="nickTwoname" id="nickname" required>
+          <input type="text" name="nickTwoname" id="nickTwoname" required>
           <br>
           <br>
           <label for="nickemail"> Email: </label>
@@ -111,11 +113,11 @@
       <div class="slogan">
           <img src="" alt="">
       </div>
-  </main>
-  <button class="btn" type="submit">Enviar</button>
-  <footer class="footer">
+    </main>
+    <button class="btn" type="submit">Enviar</button>
+    <footer class="footer">
       <h3>Direitos reservados á Trybewarts</h3>
-  </footer>
-        
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
